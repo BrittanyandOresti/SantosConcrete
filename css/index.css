@@ -1,0 +1,114 @@
+
+
+@media screen and (min-width: 300px) and (max-width: 768px){
+
+  nav {
+      height: 20vh;
+      background-color: #ffebcd;
+      background-image: url("https://www.transparenttextures.com/patterns/concrete-wall-2.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  }
+  nav img {
+    width: 35vw;
+  }
+
+  #callnow {
+    text-decoration: none;
+    font-size: 3em;
+    background-color: white;
+  }
+
+
+}
+
+/********* For the bigger mobile **************/
+
+@media screen and (min-width: 768px) and (max-width: 2000px){
+  nav {
+    height:  30vh;
+    background-color:  #FDF3F8;
+    width:  100vw;
+  }
+  .nav_bar img {
+    width: 30vh;
+  }
+  a {
+   margin-top:; 5%;
+  }
+
+}
+
+
+
+/************* All media queries css styling *************/
+body {
+  font-family: 'Roboto';
+  background-color: #e0feff;
+  background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.nav_bar {
+  margin: auto;
+  width: 100%;
+  display: flex;
+}
+
+.nav_bar li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: space-around;
+  padding-left: 10%;
+  font-size: 2em;
+
+}
+
+.nav_bar li a{
+  margin: auto;
+  text-decoration: none;
+}
+
+.Call_box {
+  margin-top: 5%;
+  display: flex;
+  width: 100%;
+}
+
+.Call_box img {
+  width: 50%;
+}
+#callnow {
+  border: .05em double red;
+  color: black;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.first_box {
+  background-color: #5F9EA0;
+  width:90vw;
+  padding: 5%;
+  margin-top: 4%;
+}
+
+.second_box img, .third_box img {
+  width: 100%;
+}
+
+.third_box {
+  background-color:#BDB76B;
+  padding: 3%;
+}
+
+.footer li{
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.footer li a, .footer li {
+  text-decoration: none;
+  list-style: none;
+}
