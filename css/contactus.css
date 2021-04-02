@@ -1,0 +1,25 @@
+.fa:hover {
+  opacity: 0.7;
+}
+.fa {
+  font-size: 3em;
+}
+
+.favicons {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 2em;
+}
+
+.inner_box {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-right: 10%;
+  font-size: 2em;
+}
+
+img {
+  width: 100%;
+}
