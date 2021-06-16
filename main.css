@@ -44,7 +44,6 @@ body {
 
 .li {
  font-size: 1.7em;
-
  list-style: none;
  display: flex;
  justify-content: space-around;
@@ -74,7 +73,7 @@ body {
 }
 
 .footer li a, .footer li {
-  font-size: 1.7em;
+  font-size: 1em;
   text-decoration: none;
   list-style: none;
 }
