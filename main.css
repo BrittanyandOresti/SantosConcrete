@@ -43,12 +43,14 @@ body {
 } */
 
 .li {
+ font-size: 1.7em;
+
  list-style: none;
  display: flex;
  justify-content: space-around;
 }
 
-.first_box,.initial_box {
+.first_box,.initial_box, {
   background-color: #5F9EA0;
   width:90vw;
   padding: 5%;
@@ -72,6 +74,7 @@ body {
 }
 
 .footer li a, .footer li {
+  font-size: 1.7em;
   text-decoration: none;
   list-style: none;
 }
