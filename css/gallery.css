@@ -1,0 +1,41 @@
+.li {
+ display: flex;
+  list-style: none;
+ justify-content: space-around;
+ margin-bottom: 1em;
+}
+
+.li a {
+  font-size: 1.7em;
+  text-decoration: none;
+}
+
+#callnow {
+  font-size: 2em;
+  text-decoration: none;
+  margin-left: 40%;
+}
+
+.first_box,.initial_box, {
+  background-color: #5F9EA0;
+  width:90vw;
+  padding: 5%;
+  margin-top: 4%;
+}
+
+.first_box img{
+  width: 90vw;
+}
+
+.footer li{
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.footer li a, .footer li {
+  font-size: 1em;
+  text-decoration: none;
+  list-style: none;
+}

@@ -43,10 +43,21 @@ body {
 } */
 
 .li {
- font-size: 1.7em;
- list-style: none;
  display: flex;
+  list-style: none;
  justify-content: space-around;
+ margin-bottom: 1em;
+}
+
+.li a {
+  font-size: 1.7em;
+  text-decoration: none;
+}
+
+#callnow {
+  font-size: 2em;
+  text-decoration: none;
+  margin-left: 40%;
 }
 
 .first_box,.initial_box, {

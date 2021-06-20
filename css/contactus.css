@@ -1,25 +1,43 @@
-.fa:hover {
-  opacity: 0.7;
+body {
+  font-family: 'Roboto';
+  background-color: #e0feff;
+  background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
-.fa {
-  font-size: 3em;
+.li {
+ display: flex;
+  list-style: none;
+ justify-content: space-around;
+ margin-bottom: 1em;
 }
 
-.favicons {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+.li a {
+  font-size: 1.7em;
+  text-decoration: none;
+}
+
+#callnow {
   font-size: 2em;
+  text-decoration: none;
+  margin-left: 40%;
 }
 
-.inner_box {
+.first_box {
+  background-color: #5F9EA0;
+  /* width:90vw; */
+  padding: 5%;
+  margin-top: 4%;
+}
+
+.footer li{
   display: flex;
+  justify-content: space-between;
   justify-content: space-around;
-  text-align: center;
-  margin-right: 10%;
-  font-size: 2em;
+  margin-top: 5%;
 }
 
-img {
-  width: 100%;
+.footer li a, .footer li {
+  font-size: 1em;
+  text-decoration: none;
+  list-style: none;
 }
